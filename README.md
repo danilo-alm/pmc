@@ -1,10 +1,9 @@
 # PMC
 
-Este programa foi criado para pesquisar preços máximos de remédios. Ele utiliza o arquivo .xls que pode ser encontrado no
-site da [Anvisa](https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos).
+Este programa foi criado para pesquisar PMCs(Preços Máximos ao Consumidor) de remédios. Ele utiliza o arquivo .xls que pode ser encontrado no site da [Anvisa](https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos).
 
 ## Uso
-Mova o arquivo .xls para o diretório do programa e, apenas uma vez, execute "converter.py". Após isso, quando quiser pesquisar o PMC de algum remédio, execute "pesquisar.py" e forneça o nome ou código de barras do medicamento.
+Mova o arquivo .xls para o diretório do programa e, apenas uma vez, execute "converter.py". Após isso, quando quiser pesquisar o PMC de algum remédio, execute "pesquisar.py" e forneça o nome ou código de barras do medicamento. A tabela é atualizada mensalmente, então se desejar, faça sempre o download da tabela mais atual, mova-a para o diretório e execute "converter.py" novamente.
 
 ## Exemplo de uso:
 
