@@ -99,7 +99,7 @@ def main():
         # Mostrar a última pesquisa ao usuario para possibilitar a checagem de erros de escrita
         if nome_anterior != "" or laboratorio_anterior != "":
             print("-"*divisor_num)
-            print("Você pesquisou:")
+            print(f"> {len(resultados)} RESULTADOS PARA:")
             print(f"Remédio: {nome_anterior}\nLaboratório: {laboratorio_anterior}")
 
 if __name__ == "__main__":
